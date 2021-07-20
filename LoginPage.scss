@@ -1,0 +1,54 @@
+.login-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.left-content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+}
+
+.right-content {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .heading {
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #ff8e33 !important;
+}
+
+
+.breakLine {
+  width: 400px;
+}
+
+.btn-sso-login {
+  width: 100px;
+  background-color: #ff8e33 !important;
+  margin: 10px !important;
+}
+
+.registration-seller {
+  padding: 0;
+  a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+  }
+}

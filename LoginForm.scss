@@ -1,0 +1,31 @@
+.btn-login {
+  width: 400px;
+  background-color: #ff8e33 !important;
+  margin: 10px !important;
+}
+.forgot-password-area {
+  width: 400px;
+  display: inline-flex;
+  align-items: baseline;
+  .forgot-password {
+    width: 50%;
+    text-align: end;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+  }
+}
+.remember-password {
+  width: 50%;
+}
+.credential-fields {
+  width: 400px;
+  margin: 15px !important;
+
+  .MuiInputLabel-formControl {
+    font-size: 12.5px;
+    &.MuiFormLabel-filled,
+    &.Mui-focused {
+      font-size: 14px;
+    }
+  }
+}
